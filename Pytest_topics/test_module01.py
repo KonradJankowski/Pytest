@@ -1,9 +1,23 @@
+import os
 
 def test_a1():
     assert 5 + 5 == 10
 
 def test_a2():
+    assert True
+
+def test_a3():
     assert 4 + 4 == 7
+
+def test_ping():
+    hostname = "google.com"
+    response = os.system("ping -c 1 " + hostname)
+    # and then check the response...
+    if response == 0:
+        pingstatus = "Network Active"
+    else:
+        pingstatus = "Network Error"
+
 
 
 
