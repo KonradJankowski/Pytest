@@ -2,3 +2,4 @@
 __pycache__/
 
 /.pytest_cache/
+/Pytest_topics/py_assertions/.pytest_cache/
